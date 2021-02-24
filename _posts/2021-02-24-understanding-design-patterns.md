@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Understanding Design Patterns
+excerpt: A comprehensive overview about Design Patterns
 date: 2021-02-24
 tags: design-patterns software-architecture gof gang-of-four
 ---
