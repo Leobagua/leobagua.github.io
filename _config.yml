@@ -1,2 +1,8 @@
 title: "Dev-#{Coding}"
 theme: jekyll-theme-minimal
+author: Leonardo da Rosa
+email: me.leonardo.da.rosa@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A place for learning about technology
+github_username: leobagua
+show_excerpts: true
