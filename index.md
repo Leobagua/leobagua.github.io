@@ -12,19 +12,8 @@
 <h3>
   <a href="{{ post.url }}">{{ post.title }}</a>
 </h3>
+{{ post.excerpt | strip_html }}
 <p class="author">
-  <span class="date">{{ post.date }}</span>
+  <small class="date">{{ post.date | date_to_string }}</span>
 </p>
-<div class="highlight">
-  {{ post.content }}
-</div>
-<div>
-  {{ post.content }}
-</div>
-<div class="highlight">
-  {{ post.excerpt }}
-</div>
-<div>
-  {{ post.excerpt }}
-</div>
 {% endfor %}
