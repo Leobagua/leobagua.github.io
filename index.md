@@ -13,7 +13,5 @@
   <a href="{{ post.url }}">{{ post.title }}</a>
 </h3>
 {{ post.excerpt | strip_html }}
-<p class="author">
-  <small class="date">{{ post.date | date_to_string }}</span>
-</p>
+{{ post.date | date_to_string }}
 {% endfor %}
