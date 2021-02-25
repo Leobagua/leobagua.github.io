@@ -12,8 +12,12 @@
 <h3>
   <a href="{{ post.url }}">{{ post.title }}</a>
 </h3>
-{{ post.excerpt | strip_html }}
-<small>
-  {{ post.date | date_to_string }}
-</small>
+<div>
+  {{ post.excerpt | strip_html }}
+  <p>
+    <small>
+      {{ post.date | date_to_string }}
+    </small>
+  </p>
+</div>
 {% endfor %}
